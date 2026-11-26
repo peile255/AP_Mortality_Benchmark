@@ -1,0 +1,19 @@
+{
+  "data_sha256": "f3128f8c99ae722e32f73cf229c67670501cad599cb9ae9c7a4484da04d352f4",
+  "seed": 20261126,
+  "repeats": 30,
+  "outer": 500,
+  "oob": 1000,
+  "smoke": false,
+  "python": "3.13.0",
+  "sklearn": "1.8.0",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "v2_sha256": "0c2bc862f19a27313c97630f6a7a9476c5b13d126f61378b6558e8b553d11fa2",
+  "code_sha256": {
+    "run_v3.py": "3cacbf1b58b753ba4060603d057a76bb90aafc950666bccc03d677fd8a8f139e",
+    "analysis_pipeline.py": "9bbf23f01701dacfbcefb8838e63058b8e487e68c246bbde71fb9223cb191cfe",
+    "config.py": "81e05c2d603f98f461a2d280cdc17666d457c83bf119115b713f792977dc2a66",
+    "compare_results.py": "78823a2209a8fc7db54e6cba2041a3e71877e566d447d85682f5db05b4da6eb9"
+  }
+}

@@ -1,0 +1,73 @@
+field,dtype,missing,unique,role,groups
+ID,int64,0,477,identifier,
+Age,int64,0,73,demographic,F1;F2;F3;F4;Simple
+Gender,object,0,2,demographic,F1;F2;F3;F4
+Race,object,0,2,demographic,F1;F2;F3;F4
+heart_rate,float64,0,97,source-described early measurement; no individual timestamps,F2;F3;F4
+sbp,float64,0,119,source-described early measurement; no individual timestamps,F2;F3;F4
+dbp,float64,0,93,source-described early measurement; no individual timestamps,F2;F3;F4
+mbp,float64,0,92,source-described early measurement; no individual timestamps,F2;F3;F4
+resp_rate,float64,0,41,source-described early measurement; no individual timestamps,F2;F3;F4
+temperature,float64,0,88,source-described early measurement; no individual timestamps,F2;F3;F4
+AKI,int64,0,2,timing uncertain: sensitivity only,F4
+Sepsis,int64,0,2,timing uncertain: sensitivity only,F4
+myocardial_infarct,int64,0,2,timing uncertain: sensitivity only,F4
+congestive_heart_failure,int64,0,2,timing uncertain: sensitivity only,F4
+cerebrovascular_disease,int64,0,2,timing uncertain: sensitivity only,F4
+chronic_pulmonary_disease,int64,0,2,timing uncertain: sensitivity only,F4
+peptic_ulcer_disease,int64,0,2,timing uncertain: sensitivity only,F4
+diabetes,int64,0,2,timing uncertain: sensitivity only,F4
+renal disease,int64,0,2,timing uncertain: sensitivity only,F4
+malignant_cancer,int64,0,2,timing uncertain: sensitivity only,F4
+severe_liver_disease,int64,0,2,timing uncertain: sensitivity only,F4
+TCa,float64,0,154,source-described early measurement; no individual timestamps,F2;F3;F4
+Bun,float64,0,97,source-described early measurement; no individual timestamps,F2;F3;F4;Simple
+potassium,float64,0,48,source-described early measurement; no individual timestamps,F2;F3;F4
+sodium,float64,0,35,source-described early measurement; no individual timestamps,F2;F3;F4
+glucose,float64,0,208,source-described early measurement; no individual timestamps,F2;F3;F4
+creatinine,float64,0,71,source-described early measurement; no individual timestamps,F2;F3;F4
+Total-Bilirubin,float64,0,97,source-described early measurement; no individual timestamps,F2;F3;F4
+AST,int64,0,254,source-described early measurement; no individual timestamps,F2;F3;F4
+ALT,float64,0,225,source-described early measurement; no individual timestamps,F2;F3;F4
+WBC,float64,0,231,source-described early measurement; no individual timestamps,F2;F3;F4
+RDW,float64,0,91,source-described early measurement; no individual timestamps,F2;F3;F4
+RBC,float64,0,244,source-described early measurement; no individual timestamps,F2;F3;F4
+platelet,int64,0,282,source-described early measurement; no individual timestamps,F2;F3;F4
+Albumin,float64,0,34,source-described early measurement; no individual timestamps,F2;F3;F4
+INR,float64,0,73,source-described early measurement; no individual timestamps,F2;F3;F4
+PT,float64,0,179,source-described early measurement; no individual timestamps,F2;F3;F4
+APTT,float64,0,264,source-described early measurement; no individual timestamps,F2;F3;F4
+chloride,float64,0,45,source-described early measurement; no individual timestamps,F2;F3;F4
+aniongap,float64,0,34,source-described early measurement; no individual timestamps,F2;F3;F4
+spo2,float64,0,26,source-described early measurement; no individual timestamps,F2;F3;F4
+SOFA,float64,0,15,source-described early measurement; no individual timestamps,F3;F4;SOFA;Simple
+GCS,float64,0,13,source-described early measurement; no individual timestamps,F3;F4
+crrt,int64,0,2,excluded: not whitelisted,
+is_ventilator,int64,0,2,excluded: not whitelisted,
+ercp,int64,0,2,excluded: not whitelisted,
+statin,int64,0,2,excluded: not whitelisted,
+octreotide,int64,0,2,excluded: not whitelisted,
+fibrates,int64,0,2,excluded: not whitelisted,
+vasopressin,int64,0,2,excluded: not whitelisted,
+TBAR,float64,0,325,continuous ratio comparator,TBAR
+TBAR1,object,0,2,excluded: not whitelisted,
+los_hospital,float64,0,435,excluded: not whitelisted,
+los_icu,float64,0,370,excluded: not whitelisted,
+hospital_mortality,int64,0,2,outcome,
+icu_mortality,int64,0,2,excluded: not whitelisted,
+hosp_time_7d,float64,0,25,excluded: not whitelisted,
+hosp_outcome_7d,int64,0,2,excluded: not whitelisted,
+hosp_time_14d,float64,0,42,excluded: not whitelisted,
+hosp_outcome_14d,int64,0,2,excluded: not whitelisted,
+hosp_time_21d,float64,0,54,excluded: not whitelisted,
+hosp_outcome_21d,int64,0,2,excluded: not whitelisted,
+hosp_time_28d,float64,0,63,excluded: not whitelisted,
+hosp_outcome_28d,int64,0,2,excluded: not whitelisted,
+hosp_time_90d,float64,0,96,excluded: not whitelisted,
+hosp_outcome_90d,int64,0,2,excluded: not whitelisted,
+hosp_time_365d,float64,0,118,excluded: not whitelisted,
+hosp_outcome_365d,int64,0,2,excluded: not whitelisted,
+Age1,object,0,2,excluded: not whitelisted,
+ERCP,int64,0,2,excluded: not whitelisted,
+pancreatic necrosis,int64,0,2,timing uncertain: sensitivity only,F4
+antibiotics,int64,0,2,excluded: not whitelisted,

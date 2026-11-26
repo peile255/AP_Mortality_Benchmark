@@ -1,0 +1,12 @@
+group,model,parameters
+F1,Ridge,"{""clf__C"": 1}"
+F2,Ridge,"{""clf__C"": 0.1}"
+F3,Ridge,"{""clf__C"": 0.1}"
+F4,Ridge,"{""clf__C"": 0.1}"
+F3,Lasso,"{""clf__C"": 1}"
+F3,Logistic,{}
+F3,RF,"{""clf__max_depth"": 6, ""clf__min_samples_leaf"": 5}"
+F3,HistGB,"{""clf__l2_regularization"": 1, ""clf__max_leaf_nodes"": 7}"
+SOFA,Logistic,{}
+Simple,Ridge,"{""clf__C"": 1}"
+TBAR,Logistic,{}

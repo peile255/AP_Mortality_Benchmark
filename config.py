@@ -1,0 +1,11 @@
+SEED = 20261126
+TARGET = 'hospital_mortality'
+ID = 'ID'
+DEM = ['Age', 'Gender', 'Race']
+VITAL = ['heart_rate', 'sbp', 'dbp', 'mbp', 'resp_rate', 'temperature', 'spo2']
+LAB = ['TCa', 'Bun', 'potassium', 'sodium', 'glucose', 'creatinine', 'Total-Bilirubin', 'AST', 'ALT', 'WBC', 'RDW', 'RBC', 'platelet', 'Albumin', 'INR', 'PT', 'APTT', 'chloride', 'aniongap']
+SCORE = ['SOFA', 'GCS']
+UNCERTAIN = ['AKI', 'Sepsis', 'myocardial_infarct', 'congestive_heart_failure', 'cerebrovascular_disease', 'chronic_pulmonary_disease', 'peptic_ulcer_disease', 'diabetes', 'renal disease', 'malignant_cancer', 'severe_liver_disease', 'pancreatic necrosis']
+CAT = ['Gender', 'Race']
+GROUPS = {'F1': DEM, 'F2': DEM + VITAL + LAB, 'F3': DEM + VITAL + LAB + SCORE, 'F4': DEM + VITAL + LAB + SCORE + UNCERTAIN, 'SOFA': ['SOFA'], 'Simple': ['Age', 'Bun', 'SOFA'], 'TBAR': ['TBAR']}
+SPECS = [('F1', 'Ridge'), ('F2', 'Ridge'), ('F3', 'Ridge'), ('F4', 'Ridge'), ('F3', 'Lasso'), ('F3', 'Logistic'), ('F3', 'RF'), ('F3', 'HistGB'), ('SOFA', 'Logistic'), ('Simple', 'Ridge'), ('TBAR', 'Logistic')]
